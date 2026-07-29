@@ -1,0 +1,29 @@
+{
+  "name": "video-brief-manifest-mcp",
+  "version": "1.0.0",
+  "description": "A local MCP server for validating structured AI video briefs before generation.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "video-brief-manifest-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "video",
+    "prompt",
+    "validation"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "zod": "^3.25.76"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
